@@ -1,0 +1,4 @@
+name: Kaggle Report
+description: >
+   Template for creating Kaggle reports in RMarkdown.
+create_dir: FALSE

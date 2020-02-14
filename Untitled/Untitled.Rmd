@@ -1,0 +1,30 @@
+---
+title: "Kaggle - [Project]"
+subtitle: "Step 2: Data Exploration"
+author: "Gimme the Prize"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+    self_contained: yes
+    css: styles.css
+    highlight: pygments
+---
+
+<img src="logo.png" style="position:absolute;top:0px;right:0px; width=50" />
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, cache=FALSE, eval=TRUE)
+```
+
+
+# Executive Summary
+
+# Background
+
+# Analysis
+
+# Conclusions
