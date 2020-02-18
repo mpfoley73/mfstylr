@@ -113,8 +113,8 @@ scale_fill_mf <- function(...) {
 #' @example inst/examples/ex-theme_mf.R
 theme_mf <- function(base_size = 10, base_family = "sans",
                             horizontal = TRUE, dkpanel = FALSE) {
-  bgcolors <- c("#d5e4eb", "#c3d6df", "#ed111a", "#ebebeb", "#c9c9c9")
-  names(bgcolors) <- c("blue-gray", "dark blue-gray", "red", "light gray", "dark gray")
+  bgcolors <- c("#d5e4eb", "#c3d6df", "#E4D9C5", "#ebebeb", "#c9c9c9")
+  names(bgcolors) <- c("blue-gray", "dark blue-gray", "Bone White", "light gray", "dark gray")
   my_colors <- mf_colors
   ## From measurements
   ## Ticks = 1 / 32 in, with margin about 1.5 / 32
@@ -151,10 +151,10 @@ theme_mf <- function(base_size = 10, base_family = "sans",
           legend.background = element_rect(linetype = 0),
           legend.spacing = unit(base_size * 1.5, "points"),
           legend.key = element_rect(linetype = 0),
-          legend.key.size = unit(1.2, "lines"),
+          legend.key.size = unit(1.0, "lines"),
           legend.key.height = NULL,
           legend.key.width = NULL,
-          legend.text = element_text(size = rel(1.25)),
+          legend.text = element_text(size = rel(1.00)),
           legend.text.align = NULL,
           legend.title = element_text(size = rel(1),  hjust = 0),
           legend.title.align = NULL,
@@ -174,7 +174,7 @@ theme_mf <- function(base_size = 10, base_family = "sans",
           strip.text = element_text(size = rel(1.25)),
           strip.text.x = element_text(),
           strip.text.y = element_text(angle = -90),
-          plot.background = element_rect(fill = mf_colors["Cherokee Red"], #bgcolors["blue-gray"]
+          plot.background = element_rect(fill = mf_colors["Bone White"], #bgcolors["blue-gray"]
                                          colour = NA),
           plot.title = element_text(size = rel(1.5),
                                     hjust = 0, face = "bold"),
